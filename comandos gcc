@@ -1,0 +1,12 @@
+gcc projectV.c avisos.c puzzles.c fileLoader.c render.c eventListener.c player.c item.c -oprograma -lallegro_image -lallegro_audio -lallegro_acodec -lallegro_font -lallegro_ttf -lallegro_dialog -lallegro_primitives -lallegro
+
+
+
+
+gcc -I c:\allegro\include -c projectV.c avisos.c puzzles.c fileLoader.c render.c eventListener.c player.c item.c -lallegro_image -lallegro_audio -lallegro_acodec -lallegro_font -lallegro_ttf -lallegro_dialog -lallegro_primitives -lallegro 
+-std=c99
+
+
+
+
+gcc -o project.exe projectV.o avisos.o puzzles.o fileLoader.o render.o eventListener.o player.o item.o c:\allegro\lib\liballegro_monolith.dll.a
